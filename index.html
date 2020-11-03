@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            
+            <div class="video">
+                <video id="video-id" poster = "{{poster}}"><source src="{{video}}" type="video/mp4" />
+            </div>
+            
+            <div class="foot title">
+                {{title}}
+            </div>
+            <div class="foot logo">
+            <img src=""></img>
+            </div>
+
+            <div class="foot tv">
+                {{tv}}
+            </div>
+
+
+            <div class="foot description">
+               <i> {{description}} </i>
+            </div>
+
+   </div>
+   <script>
+       document.getElementById('description').style.display = "flex"; 
+   </script>
+</body>
+</html>
